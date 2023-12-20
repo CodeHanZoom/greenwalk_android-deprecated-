@@ -8,6 +8,7 @@ android {
     compileSdk 32
 
     defaultConfig {
+        compileSdkVersion 33
         applicationId "com.codehanzoom.greenwalk"
         minSdk 21
         targetSdk 32
