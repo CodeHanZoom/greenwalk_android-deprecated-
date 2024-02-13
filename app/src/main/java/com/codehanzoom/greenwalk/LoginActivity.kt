@@ -12,7 +12,13 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         findViewById<Button>(R.id.loginBtn).setOnClickListener {
+//            로그인 요청
+
+//            토큰 확인
+
+//            intent 이동 후 activity 삭제
             startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         }
 
         findViewById<Button>(R.id.signUpBtn).setOnClickListener {

@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300sp"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_gravity="center"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".HomeActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="300dp"
         android:layout_height="59dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="Green Walk"
-        android:textColor="@color/green_700"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/green_700"
         android:textSize="40dp"
         android:textStyle="bold" />
 
@@ -29,10 +30,45 @@
         android:text="마이페이지" />
 
     <Button
-        android:id="@+id/signUpBtn"
+        android:id="@+id/notificationBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:text="공지사항" />
+
+    <Button
+        android:id="@+id/rankBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="랭킹" />
+
+    <Button
+        android:id="@+id/pointBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="포인트" />
+
+    <Button
+        android:id="@+id/donationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="기부하기" />
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="로그아웃" />
+
+    <Button
+        android:id="@+id/floggingStartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="플로깅 시작" />
 
 </LinearLayout>
