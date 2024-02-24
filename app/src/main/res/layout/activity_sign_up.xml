@@ -29,13 +29,15 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="60sp" >
+        android:layout_height="60sp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="12sp"
-            android:text="@string/signUpInfo"/>
+            android:text="@string/signUpInfo"
+            android:textSize="12sp" />
     </ScrollView>
+
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,21 +61,10 @@
         android:orientation="horizontal">
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="300sp"
             android:layout_height="50sp"
-            android:hint="이메일" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="\@"
-            android:textStyle="bold" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="50sp"
-            android:hint="gmail.com" />
+            android:hint="codehanzoom@gmail.com"
+            android:inputType="textEmailAddress" />
     </LinearLayout>
 
     <TextView

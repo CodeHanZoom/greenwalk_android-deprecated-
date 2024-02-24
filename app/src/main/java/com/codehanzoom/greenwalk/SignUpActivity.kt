@@ -2,17 +2,18 @@ package com.codehanzoom.greenwalk
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.codehanzoom.greenwalk.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
 
+        val binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
 //        Move to Home activity
-        findViewById<Button>(R.id.signUpApprovalBtn).setOnClickListener {
+        binding.signUpApprovalBtn.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
         }
     }

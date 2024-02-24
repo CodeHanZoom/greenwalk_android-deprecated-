@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.codehanzoom.greenwalk'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         compileSdkVersion 33
@@ -16,6 +16,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    viewBinding {
+        enabled = true
     }
 
     buildTypes {
