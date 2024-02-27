@@ -9,37 +9,50 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="300dp"
-            android:layout_height="59dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            style="@style/basic_elem_style"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:gravity="center"
+
             android:text="Green Walk"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/green_700"
             android:textSize="40dp"
+
             android:textStyle="bold" />
 
-        <ImageView
+        <TextView
+            android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-        />
-    </LinearLayout>
+            android:layout_gravity="right"
+            android:text="알림" />
+    </RelativeLayout>
 
-
-    <Button
-        android:id="@+id/myPageBtn"
+    <LinearLayout
+        android:id="@+id/myInfoArea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="마이페이지" />
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="님,\n개의 쓰레기를 플로깅 하셨어요"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="현재 님은 등급입니다."/>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/notificationBtn"

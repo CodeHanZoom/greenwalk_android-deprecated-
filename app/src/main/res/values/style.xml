@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="basic_elem_style">
+        <item name="android:radius">40dp</item>
+    </style>
+
+</resources>
