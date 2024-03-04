@@ -16,8 +16,17 @@
         android:theme="@style/Theme.GreenWalk"
         tools:targetApi="31">
         <activity
+            android:name=".MyInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PictureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PloggingActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashInit"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,8 +43,6 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -51,6 +51,9 @@ dependencies {
     implementation composeBom
     androidTestImplementation composeBom
 
+    // Google Maps API
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+
     // splash screen
     implementation "androidx.core:core-splashscreen:1.0.0"
     // Choose one of the following:

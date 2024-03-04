@@ -16,10 +16,10 @@
 
         <TextView
             android:id="@+id/textView"
+            style="@style/basic_elem_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            style="@style/basic_elem_style"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
 
@@ -31,9 +31,9 @@
             android:textStyle="bold" />
 
         <TextView
-            android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
             android:layout_gravity="right"
             android:text="알림" />
     </RelativeLayout>
@@ -43,14 +43,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="님,\n개의 쓰레기를 플로깅 하셨어요"/>
+            android:text="님,\n개의 쓰레기를 플로깅 하셨어요" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="현재 님은 등급입니다."/>
+            android:text="현재 님은 등급입니다." />
 
     </LinearLayout>
 
